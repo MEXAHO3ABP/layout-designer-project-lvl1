@@ -1,52 +1,114 @@
 /** CSS STYLE **/
 @font-face {
-  font-family: 'OpenSans Regular';
-  src: url(fonts/OpenSans-Regular.ttf);
+    font-family: 'OpenSans Regular';
+    src: url(fonts/OpenSans-Regular.ttf);
 }
 
 @font-face {
-  font-family: 'OpenSans Bold';
-  src: url(fonts/OpenSans-Bold.ttf);
+    font-family: 'OpenSans Bold';
+    src: url(fonts/OpenSans-Bold.ttf);
 }
 
 @font-face {
-  font-family: 'OpenSans Italic';
-  src: url(fonts/OpenSans-Italic.ttf);
+    font-family: 'OpenSans Italic';
+    src: url(fonts/OpenSans-Italic.ttf);
 }
 
 @font-face {
-  font-family: 'Neucha Regular';
-  src: url(fonts/Neucha-Regular.ttf);
+    font-family: 'Neucha Regular';
+    src: url(fonts/Neucha-Regular.ttf);
 }
 
 body {
-  font-family: 'OpenSans Regular';
-  font-size: 16px;
-  line-height: 1.6em;
-  color: #2a2626;
+    font-family: 'OpenSans Regular';
+    font-size: 16px;
+    line-height: 1.6em;
+    color: #2a2626;
+    overflow-x: hidden;
 }
 
 h1,
 h2,
 h3 {
-  font-family: 'Neucha Regular';
-  line-height: 1.2em;
+    font-family: 'Neucha Regular';
+    line-height: 1.2em;
+    margin: 0;
 }
 
 h1 {
-  font-size: 72px;
+    font-size: 72px;
+    color: #fe8a02;
 }
 
 h2 {
-  font-size: 60px;
+    font-size: 60px;
 }
 
 h3 {
-  font-size: 34px;
+    font-size: 34px;
 }
 
 section {
-  max-width: 1110px;
-  text-align: center;
-  padding: 100px;
+    max-width: 1110px;
+    text-align: center;
+    padding: 100px;
+}
+
+header {
+    width: 100%;
+    height: 580px;
+}
+
+header::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url(../images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+}
+
+.header-image {
+    position: relative;
+    height: 525px;
+    max-width: 100%;
+    top: 55px;
+    right: -270px;
+    overflow: hidden;
+    margin-bottom: 55px;
+}
+
+.header-heading {
+    position: absolute;
+    top: 100px;
+    left: 165px;
+}
+
+.header-text {
+    column-count: 2;
+    column-gap: 30px;
+}
+
+.header-text p {
+    margin-top: 0;
+}
+
+.header-button {
+    display: inline;
+    position: relative;
+    margin-top: 2em;
+    padding: 12px 24px;
+    font-weight: bold;
+    background-color: #fe8a02;
+    text-align: center;
+}
+
+.header-button a {
+    text-decoration: none;
+    color: #ffffff;
+    margin: 0px;
+    padding: 0px;
+    text-transform: uppercase;
 }
