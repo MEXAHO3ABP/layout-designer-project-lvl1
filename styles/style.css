@@ -128,3 +128,67 @@ header::before {
     filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
     margin: auto;
 }
+
+.section2 {
+    position: relative;
+    background-color: #42413c;
+    width: 100vw;
+    height: 100%;
+}
+
+#navigation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: auto;
+    padding: 100px 0;
+}
+
+.nav-heading {
+    width: 25%;
+    height: 323px;
+    padding: 24px;
+    margin: 12px;
+    text-align: left;
+}
+
+.nav-heading h1,
+h2 {
+    font-size: 52px;
+}
+
+.card {
+    width: 25%;
+    height: 323px;
+    background-color: #f5f4f0;
+    padding: 24px;
+    margin: 12px;
+    text-align: left;
+}
+
+.card:hover {
+    background-color: #fe8a02;
+}
+
+.card:hover * {
+    color: #ffffff;
+}
+
+.card a,
+a:visited {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: #42413c;
+}
+
+.card-number {
+    margin-bottom: 40px;
+    font-size: 64px;
+    line-height: 1em;
+}
+
+.card-heading {
+    font-size: 52px;
+}
