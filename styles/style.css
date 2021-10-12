@@ -29,7 +29,8 @@ body {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
     font-family: 'Neucha Regular';
     line-height: 1.2em;
     margin: 0;
@@ -48,6 +49,11 @@ h3 {
     font-size: 34px;
 }
 
+h4 {
+    font-size: 24px;
+    color: #908d8b;
+}
+
 section {
     max-width: 1110px;
     text-align: center;
@@ -62,8 +68,8 @@ header {
 header::before {
     content: '';
     position: absolute;
-    height: 100%;
-    width: 100%;
+    height: 100vh;
+    width: 100vw;
     background-image: url(../images/background.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -87,6 +93,7 @@ header::before {
 }
 
 .header-text {
+    margin: 0 30px;
     column-count: 2;
     column-gap: 30px;
 }
@@ -191,4 +198,59 @@ a:visited {
 
 .card-heading {
     font-size: 52px;
+}
+
+.section3 {
+    position: relative;
+    width: 100vw;
+    height: 100%;
+}
+
+#ikea-effect {
+    padding: 100px 0;
+    margin: auto;
+}
+
+#ikea-effect::before {
+    content: '';
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+}
+
+.section-up {
+    margin: auto;
+}
+
+.section-img {
+    vertical-align: middle;
+}
+
+.section-img-left {
+    float: left;
+}
+
+.section-text-right {
+    text-align: left;
+}
+
+.section-pre-heading {
+    background-color: #b09a81;
+    margin: 100px 0 20px;
+}
+
+.clear {
+    clear: both;
+}
+
+.section-pre-heading p {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: left;
+    color: #ffffff;
+    padding: 5px 10px;
 }
