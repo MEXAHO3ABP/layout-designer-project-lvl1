@@ -38,7 +38,6 @@ h4 {
 
 h1 {
     font-size: 72px;
-    color: #fe8a02;
 }
 
 h2 {
@@ -54,8 +53,11 @@ h4 {
     color: #908d8b;
 }
 
+.orange {
+    color: #fe8a02;
+}
+
 section {
-    max-width: 1110px;
     text-align: center;
     margin: 100px 0;
 }
@@ -68,7 +70,7 @@ header {
 header::before {
     content: '';
     position: absolute;
-    height: 100vh;
+    height: 100%;
     width: 100vw;
     background-image: url(../images/background.png);
     background-repeat: no-repeat;
@@ -93,6 +95,7 @@ header::before {
 }
 
 .header-text {
+    max-width: 1100px;
     margin: 0 30px;
     column-count: 2;
     column-gap: 30px;
@@ -105,7 +108,7 @@ header::before {
 .header-button {
     display: inline;
     position: relative;
-    margin-top: 2em;
+    margin-top: 40px;
     padding: 12px 24px;
     font-weight: bold;
     background-color: #fe8a02;
@@ -140,7 +143,7 @@ header::before {
     position: relative;
     background-color: #42413c;
     width: 100vw;
-    height: 100%;
+    height: 100vh;
 }
 
 #navigation {
@@ -162,6 +165,13 @@ header::before {
 .nav-heading h1,
 h2 {
     font-size: 52px;
+}
+
+.nav-heading p {
+    font-family: 'Neucha Regular';
+    line-height: 1.2em;
+    font-size: 52px;
+    margin: 0;
 }
 
 .card {
@@ -191,30 +201,35 @@ a:visited {
 }
 
 .card-number {
-    margin-bottom: 40px;
+    font-family: 'Neucha Regular';
+    margin: 0 0 40px 0;
     font-size: 64px;
     line-height: 1em;
 }
 
 .card-heading {
-    font-size: 52px;
+    font-family: 'Neucha Regular';
+    font-size: 34px;
 }
 
-.section3 {
-    position: relative;
+.section3,
+.section4 {
     width: 100vw;
-    height: 100%;
+    height: 100vh;
 }
 
 #ikea-effect {
+    position: relative;
+    width: 100vw;
     padding: 100px 0;
-    margin: auto;
 }
 
-#ikea-effect::before {
+.section3::before {
     content: '';
     position: absolute;
-    height: 100vh;
+    left: 0;
+    right: 0;
+    height: 100%;
     width: 100vw;
     background-image: url(../images/background.png);
     background-repeat: no-repeat;
@@ -223,34 +238,101 @@ a:visited {
 }
 
 .section-up {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     margin: auto;
 }
 
-.section-img {
-    vertical-align: middle;
-}
-
 .section-img-left {
-    float: left;
+    order: 1;
+    vertical-align: middle;
+    filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+    margin: 0 15px;
 }
 
 .section-text-right {
+    order: 2;
     text-align: left;
+    max-width: 500px;
+    margin: 0 15px;
+}
+
+.kogisk-header {
+    font-family: 'Neucha Regular';
+    font-size: 24px;
+    color: #908d8b;
+    margin: 0;
+    line-height: 1.2em;
+}
+
+.kogisk-description {
+    font-family: 'Neucha Regular';
+    font-size: 34px;
+    margin: 0;
+    line-height: 1.2em;
 }
 
 .section-pre-heading {
-    background-color: #b09a81;
     margin: 100px 0 20px;
 }
 
-.clear {
-    clear: both;
+.back-brown {
+    background-color: #b09a81;
 }
 
-.section-pre-heading p {
+.back-white {
+    background-color: #ffffff;
+}
+
+.section-pre-heading h2 {
+    font-family: 'OpenSans Regular';
+    font-size: 14px;
     text-transform: uppercase;
     font-weight: bold;
     text-align: left;
-    color: #ffffff;
     padding: 5px 10px;
+}
+
+#premature-optimization {
+    position: relative;
+    width: 100vw;
+    padding: 100px 0;
+}
+
+.section4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100vw;
+    background-image: url(../images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+    background-color: #b09a81;
+}
+
+.section-img-right {
+    order: 2;
+    vertical-align: middle;
+    filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+    margin: 0 15px;
+}
+
+.section-text-left {
+    order: 1;
+    text-align: left;
+    max-width: 500px;
+    margin: 0 15px;
+    color: #ffffff;
+}
+
+.text-white {
+    color: #ffffff;
+}
+
+.text-brown {
+    color: #b09a81;
 }
