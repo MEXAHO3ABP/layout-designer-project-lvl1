@@ -57,11 +57,6 @@ h4 {
     color: #fe8a02;
 }
 
-section {
-    text-align: center;
-    margin: 100px 0;
-}
-
 header {
     width: 100vw;
     height: 100vh;
@@ -78,44 +73,62 @@ header::before {
     opacity: 0.9;
 }
 
+.header-container {
+    position: relative;
+    max-width: 1110px;
+    height: 100%;
+    margin: auto;
+}
+
 .header-image {
     position: relative;
     height: 525px;
-    max-width: 100%;
     top: 55px;
     right: -270px;
-    overflow: hidden;
     margin-bottom: 55px;
 }
 
 .header-heading {
     position: absolute;
     top: 100px;
-    left: 165px;
 }
 
-.header-text {
-    max-width: 1100px;
-    margin: 0 30px;
-    column-count: 2;
-    column-gap: 30px;
+.content-text {
+    overflow: hidden;
 }
 
-.header-text p {
+.content-text div {
+    width: calc(50% - 15px);
+    float: left;
+}
+
+.margin-right-30px {
+    margin-right: 30px;
+}
+
+.content-text p {
     margin-top: 0;
 }
 
-.header-button {
-    display: inline;
-    position: relative;
-    margin-top: 40px;
+#header-button-container {
+    overflow: hidden;
+}
+
+#header-button-left {
+    width: calc(50% + 15px);
+    height: 49px;
+    float: left;
+}
+
+#header-button {
+    float: left;
     padding: 12px 24px;
     font-weight: bold;
     background-color: #fe8a02;
     text-align: center;
 }
 
-.header-button a {
+#header-button a {
     text-decoration: none;
     color: #ffffff;
     margin: 0px;
@@ -124,19 +137,36 @@ header::before {
 }
 
 .section1 {
-    position: relative;
     width: 100vw;
     height: 100vh;
 }
 
+.section1-container {
+    position: relative;
+    max-width: 1110px;
+    margin: auto;
+}
+
 .section1-heading {
     margin-bottom: 30px;
+}
+
+.section1-heading p {
+    text-align: center;
+}
+
+.section1-heading h1 {
+    text-align: center;
+}
+
+.video-container {
+    position: relative;
     margin: auto;
+    text-align: center;
 }
 
 .video {
     filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
-    margin: auto;
 }
 
 .section2 {
@@ -149,16 +179,15 @@ header::before {
 #navigation {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin: auto;
-    padding: 100px 0;
+    padding-top: 100px;
+    max-width: 1110px;
 }
 
 .nav-heading {
-    width: 25%;
-    height: 323px;
-    padding: 24px;
-    margin: 12px;
+    width: 348px;
+    height: 348px;
     text-align: left;
 }
 
@@ -175,11 +204,10 @@ h2 {
 }
 
 .card {
-    width: 25%;
-    height: 323px;
+    width: 300px;
+    height: 300px;
     background-color: #f5f4f0;
     padding: 24px;
-    margin: 12px;
     text-align: left;
 }
 
@@ -212,6 +240,10 @@ a:visited {
     font-size: 34px;
 }
 
+.margin-bootom-20px {
+    margin-bottom: 20px;
+}
+
 .section3,
 .section4 {
     width: 100vw;
@@ -220,7 +252,8 @@ a:visited {
 
 #ikea-effect {
     position: relative;
-    width: 100vw;
+    margin: auto;
+    max-width: 1110px;
     padding: 100px 0;
 }
 
@@ -239,9 +272,7 @@ a:visited {
 
 .section-up {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    margin: auto;
 }
 
 .section-img-left {
@@ -296,7 +327,8 @@ a:visited {
 
 #premature-optimization {
     position: relative;
-    width: 100vw;
+    margin: auto;
+    max-width: 1110px;
     padding: 100px 0;
 }
 
