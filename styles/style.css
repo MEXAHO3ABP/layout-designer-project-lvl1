@@ -277,21 +277,19 @@ a:visited {
 
 .section-up {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .section-img-left {
     order: 1;
     vertical-align: middle;
     filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
-    margin: 0 15px;
 }
 
 .section-text-right {
     order: 2;
     text-align: left;
     max-width: 500px;
-    margin: 0 15px;
 }
 
 .kogisk-header {
@@ -349,14 +347,12 @@ a:visited {
     order: 2;
     vertical-align: middle;
     filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
-    margin: 0 15px;
 }
 
 .section-text-left {
     order: 1;
     text-align: left;
     max-width: 500px;
-    margin: 0 15px;
     color: #ffffff;
 }
 
