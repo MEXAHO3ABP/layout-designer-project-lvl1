@@ -151,10 +151,7 @@ header::before {
     margin-bottom: 30px;
 }
 
-.section1-heading p {
-    text-align: center;
-}
-
+.section1-heading p,
 .section1-heading h1 {
     text-align: center;
 }
@@ -245,19 +242,23 @@ a:visited {
 }
 
 .section3,
-.section4 {
+.section4,
+.section5 {
     width: 100vw;
     height: 100vh;
 }
 
-#ikea-effect {
+#ikea-effect,
+#premature-optimization,
+#distortion-of-novelty {
     position: relative;
     margin: auto;
     max-width: 1110px;
     padding: 100px 0;
 }
 
-.section3::before {
+.section3::before,
+.section5::before {
     content: '';
     position: absolute;
     left: 0;
@@ -323,13 +324,6 @@ a:visited {
     font-weight: bold;
     text-align: left;
     padding: 5px 10px;
-}
-
-#premature-optimization {
-    position: relative;
-    margin: auto;
-    max-width: 1110px;
-    padding: 100px 0;
 }
 
 .section4::before {
