@@ -178,7 +178,7 @@ header::before {
     flex-wrap: wrap;
     justify-content: space-between;
     margin: auto;
-    padding-top: 100px;
+    padding: 100px 0;
     max-width: 1110px;
 }
 
@@ -243,14 +243,15 @@ a:visited {
 
 .section3,
 .section4,
-.section5 {
+.section5,
+.section6 {
     width: 100vw;
-    height: 100vh;
 }
 
 #ikea-effect,
 #premature-optimization,
-#distortion-of-novelty {
+#distortion-of-novelty,
+#hyperbolic-depreciation {
     position: relative;
     margin: auto;
     max-width: 1110px;
@@ -326,7 +327,8 @@ a:visited {
     padding: 5px 10px;
 }
 
-.section4::before {
+.section4::before,
+.section6::before {
     content: '';
     position: absolute;
     left: 0;
