@@ -244,14 +244,16 @@ a:visited {
 .section3,
 .section4,
 .section5,
-.section6 {
+.section6,
+.section7 {
     width: 100vw;
 }
 
 #ikea-effect,
 #premature-optimization,
 #distortion-of-novelty,
-#hyperbolic-depreciation {
+#hyperbolic-depreciation,
+#errors-in-planning {
     position: relative;
     margin: auto;
     max-width: 1110px;
@@ -259,7 +261,8 @@ a:visited {
 }
 
 .section3::before,
-.section5::before {
+.section5::before,
+.section7::before {
     content: '';
     position: absolute;
     left: 0;
