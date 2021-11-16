@@ -122,23 +122,26 @@ header::before {
 }
 
 #header-button {
+    position: relative;
     float: left;
-    padding: 12px 24px;
+    height: 49px;
+    width: 148px;
     font-weight: bold;
     background-color: #fe8a02;
-    text-align: center;
+}
+
+#header-button a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: 12px 24px;
+    text-decoration: none;
+    color: #ffffff;    
+    text-transform: uppercase;    
 }
 
 #header-button:hover {
     background-color: #EA7600;
-}
-
-#header-button a {
-    text-decoration: none;
-    color: #ffffff;
-    margin: 0px;
-    padding: 0px;
-    text-transform: uppercase;
 }
 
 .section1 {
