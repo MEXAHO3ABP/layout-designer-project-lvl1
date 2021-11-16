@@ -34,6 +34,7 @@ h4 {
     font-family: 'Neucha Regular';
     line-height: 1.2em;
     margin: 0;
+    font-weight: normal;
 }
 
 h1 {
@@ -126,6 +127,10 @@ header::before {
     font-weight: bold;
     background-color: #fe8a02;
     text-align: center;
+}
+
+#header-button:hover {
+    background-color: #EA7600;
 }
 
 #header-button a {
@@ -230,7 +235,7 @@ h2 {
 }
 
 .card a,
-a:visited {
+.card a:visited {
     display: block;
     width: 100%;
     height: 100%;
@@ -381,12 +386,13 @@ footer {
 
 .footer-up-section {
     background-color: #42413c;
-    display: flex;
-    justify-content: space-between;
+    overflow: hidden;
 }
 
 .footer-us-text {
-    margin: 55px;
+    width: calc(50% - 70px);
+    float: left;
+    padding: 55px 0 55px 55px;
 }
 
 .text-18px {
@@ -394,28 +400,69 @@ footer {
 }
 
 .footer-us-email {
-    margin: 40px 0;
+    width: calc(50% - 15px);
+    float: left;
+    padding-top: 38px;
+}
+
+.footer-us-email p {
+    margin: 0;
 }
 
 #enter-email {
     height: 50px;
-    margin: 15px;
+    width: 415px;
+    float: left;
+}
+
+input {
+    border: 0;
+    padding: 0;
+    padding-left: 15px;
+}
+
+input::placeholder {
+    padding: 15px;
+    padding-left: 0;
 }
 
 #button-enter-email {
+    position: relative;
     height: 50px;
     width: 70px;
+    background-color: #fe8a02;
+    float: left;
+}
+
+#button-enter-email a {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+
+#button-enter-email a:hover {
+    content: url(../images/send_hover.svg);
+    align-items: center;
+    vertical-align: middle;
 }
 
 #button-enter-email::before {
-    content: '';
-    background-image: url(../images/send.svg);
+    content: url(../images/send.svg);
     align-items: center;
     vertical-align: middle;
 }
 
 .footer-us-email-soglash {
     font-size: 12px;
+}
+
+.footer-us-email-soglash a,
+.footer-us-email-soglash a:visited {
+    color: #ffffff;
 }
 
 .footer-down-section {
