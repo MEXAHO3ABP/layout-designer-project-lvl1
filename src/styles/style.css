@@ -1,26 +1,26 @@
 /** CSS STYLE **/
 @font-face {
-    font-family: 'OpenSans Regular';
+    font-family: 'OpenSans-Regular';
     src: url(fonts/OpenSans-Regular.ttf);
 }
 
 @font-face {
-    font-family: 'OpenSans Bold';
+    font-family: 'OpenSans-Bold';
     src: url(fonts/OpenSans-Bold.ttf);
 }
 
 @font-face {
-    font-family: 'OpenSans Italic';
+    font-family: 'OpenSans-Italic';
     src: url(fonts/OpenSans-Italic.ttf);
 }
 
 @font-face {
-    font-family: 'Neucha Regular';
+    font-family: 'Neucha-Regular';
     src: url(fonts/Neucha-Regular.ttf);
 }
 
 body {
-    font-family: 'OpenSans Regular';
+    font-family: 'OpenSans-Regular';
     font-size: 16px;
     line-height: 1.6em;
     color: #2a2626;
@@ -32,7 +32,7 @@ h1,
 h2,
 h3,
 h4 {
-    font-family: 'Neucha Regular';
+    font-family: 'Neucha-Regular';
     line-height: 1.2em;
     margin: 0;
     font-weight: normal;
@@ -216,7 +216,7 @@ header::before {
 }
 
 .nav-heading p {
-    font-family: 'Neucha Regular';
+    font-family: 'Neucha-Regular';
     line-height: 1.2em;
     font-size: 52px;
     margin: 0;
@@ -248,14 +248,14 @@ header::before {
 }
 
 .card-number {
-    font-family: 'Neucha Regular';
+    font-family: 'Neucha-Regular';
     margin: 0 0 40px 0;
     font-size: 64px;
     line-height: 1em;
 }
 
 .card-heading {
-    font-family: 'Neucha Regular';
+    font-family: 'Neucha-Regular';
     font-size: 34px;
 }
 
@@ -325,7 +325,7 @@ header::before {
 }
 
 .kogisk-header {
-    font-family: 'Neucha Regular';
+    font-family: 'Neucha-Regular';
     font-size: 24px;
     color: #908d8b;
     margin: 0;
@@ -333,7 +333,7 @@ header::before {
 }
 
 .kogisk-description {
-    font-family: 'Neucha Regular';
+    font-family: 'Neucha-Regular';
     font-size: 34px;
     margin: 0;
     line-height: 1.2em;
@@ -352,7 +352,7 @@ header::before {
 }
 
 .section-pre-heading h2 {
-    font-family: 'OpenSans Regular';
+    font-family: 'OpenSans-Regular';
     font-size: 14px;
     text-transform: uppercase;
     font-weight: bold;
