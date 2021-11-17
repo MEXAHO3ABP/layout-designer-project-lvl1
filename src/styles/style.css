@@ -60,10 +60,11 @@ h4 {
 
 header {
     width: 100vw;
-    height: 100vh;
+    height: 100vh;    
 }
 
 header::before {
+    background: #908D8B;
     content: '';
     position: absolute;
     height: 100%;
