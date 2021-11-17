@@ -232,6 +232,7 @@ header::before {
 
 .card:hover {
     background-color: #fe8a02;
+    z-index: 1;
 }
 
 .card:hover * {
