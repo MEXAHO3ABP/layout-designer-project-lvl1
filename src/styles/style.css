@@ -173,10 +173,11 @@ header::before {
     margin-bottom: 30px;
 }
 
-.section1-heading p {
+.section1-container p {
     text-align: center;
     margin: 0 0 16px 0;
 }
+.section1-heading h1, 
 .section1-heading h2 {
     text-align: center;    
 }
