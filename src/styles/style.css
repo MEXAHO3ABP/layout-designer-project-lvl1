@@ -85,7 +85,7 @@ header::before {
 
 .header-image {
     position: relative;
-    height: 525px;
+    height: 521px;
     top: 55px;
     right: -270px;
     margin-bottom: 55px;
@@ -273,6 +273,12 @@ h2 {
     width: 100vw;
 }
 
+.section3,
+.section5,
+.section7 {
+    background: #F5F4F0;
+}
+
 #ikea-effect,
 #premature-optimization,
 #distortion-of-novelty,
@@ -282,6 +288,12 @@ h2 {
     margin: auto;
     max-width: 1110px;
     padding: 100px 0;
+}
+
+#ikea-effect,
+#distortion-of-novelty,
+#errors-in-planning {
+    background: #F5F4F0;
 }
 
 .section3::before,
