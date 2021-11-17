@@ -1,22 +1,22 @@
 /** CSS STYLE **/
 @font-face {
     font-family: 'OpenSans-Regular';
-    src: url(fonts/OpenSans-Regular.ttf);
+    src: url(../fonts/OpenSans-Regular.ttf);
 }
 
 @font-face {
     font-family: 'OpenSans-Bold';
-    src: url(fonts/OpenSans-Bold.ttf);
+    src: url(../fonts/OpenSans-Bold.ttf);
 }
 
 @font-face {
     font-family: 'OpenSans-Italic';
-    src: url(fonts/OpenSans-Italic.ttf);
+    src: url(../fonts/OpenSans-Italic.ttf);
 }
 
 @font-face {
     font-family: 'Neucha-Regular';
-    src: url(fonts/Neucha-Regular.ttf);
+    src: url(../fonts/Neucha-Regular.ttf);
 }
 
 body {
@@ -228,11 +228,11 @@ header::before {
     background-color: #f5f4f0;
     padding: 24px;
     text-align: left;
+    z-index: 1;
 }
 
 .card:hover {
     background-color: #fe8a02;
-    z-index: 1;
 }
 
 .card:hover * {
@@ -246,6 +246,7 @@ header::before {
     height: 100%;
     text-decoration: none;
     color: #42413c;
+    z-index: 2;
 }
 
 .card-number {
