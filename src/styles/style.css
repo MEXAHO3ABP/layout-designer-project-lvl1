@@ -21,22 +21,24 @@
 
 body {
   font-size: 16px;
-  font-family: "OpenSans-Regular";
+
   margin: 0;
+  font-family: "OpenSans-Regular", sans-serif;
 
   overflow-x: hidden;
+
   color: #2a2626;
-  line-height: 1.6em;  
 }
 
 h1,
 h2,
 h3,
 h4 {
-  font-family: "Neucha-Regular";
-  line-height: 1.2em;
   margin: 0;
+  font-family: "Neucha-Regular", sans-serif;
+
   font-weight: normal;
+  margin: 0;
 }
 
 h1 {
@@ -133,13 +135,28 @@ header::before {
   background-color: #fe8a02;
 }
 
+.footer-us-email-soglash a,
+.footer-us-email-soglash a:visited {
+  color: #fff;
+}
+
+.card a,
+.card a:visited {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: #42413c;
+  z-index: 2;
+}
+
 #header-button a {
   display: block;
   width: 100%;
   height: 100%;
   margin: 12px 24px;
   text-decoration: none;
-  color: #ffffff;
+  color: #fff;
   text-transform: uppercase;
 }
 
@@ -168,6 +185,7 @@ header::before {
   text-align: center;
   margin: 0 0 14px 0;
 }
+
 .section1-heading h1,
 .section1-heading h2 {
   text-align: center;
@@ -217,7 +235,7 @@ header::before {
 }
 
 .nav-heading p {
-  font-family: "Neucha-Regular";
+  font-family: "Neucha-Regular", sans-serif;
   line-height: 1.2em;
   font-size: 52px;
   margin: 0;
@@ -225,7 +243,7 @@ header::before {
 
 .card {
   width: 300px;
-  height: 276px;
+  height: 280px;
   background-color: #f5f4f0;
   padding: 24px;
   text-align: left;
@@ -237,29 +255,20 @@ header::before {
 }
 
 .card:hover * {
-  color: #ffffff;
-}
-
-.card a,
-.card a:visited {
-  display: block;
-  width: 100%;
-  height: 100%;
-  text-decoration: none;
-  color: #42413c;
-  z-index: 2;
+  color: #fff;
 }
 
 .card-number {
-  font-family: "Neucha-Regular";
+  font-family: "Neucha-Regular", sans-serif;
   margin: 0 0 40px 0;
   font-size: 64px;
   line-height: 1em;
 }
 
 .card-heading {
-  font-family: "Neucha-Regular";
+  font-family: "Neucha-Regular", sans-serif;
   font-size: 34px;
+  line-height: 1.2em;
 }
 
 .margin-bootom-20px {
@@ -328,7 +337,7 @@ header::before {
 }
 
 .kogisk-header {
-  font-family: "Neucha-Regular";
+  font-family: "Neucha-Regular", sans-serif;
   font-size: 24px;
   color: #908d8b;
   margin: 0;
@@ -336,7 +345,7 @@ header::before {
 }
 
 .kogisk-description {
-  font-family: "Neucha-Regular";
+  font-family: "Neucha-Regular", sans-serif;
   font-size: 34px;
   margin: 0;
   line-height: 1.2em;
@@ -351,11 +360,11 @@ header::before {
 }
 
 .back-white {
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 .section-pre-heading h2 {
-  font-family: "OpenSans-Regular";
+  font-family: "OpenSans-Regular", sans-serif;
   font-size: 14px;
   text-transform: uppercase;
   font-weight: bold;
@@ -378,11 +387,11 @@ header::before {
   order: 1;
   text-align: left;
   max-width: 500px;
-  color: #ffffff;
+  color: #fff;
 }
 
 .text-white {
-  color: #ffffff;
+  color: #fff;
 }
 
 .text-brown {
@@ -475,11 +484,6 @@ input::placeholder {
 
 .footer-us-email-soglash {
   font-size: 12px;
-}
-
-.footer-us-email-soglash a,
-.footer-us-email-soglash a:visited {
-  color: #ffffff;
 }
 
 .footer-down-section {
