@@ -266,14 +266,6 @@ h2 {
 }
 
 .section3,
-.section4,
-.section5,
-.section6,
-.section7 {
-    width: 100vw;
-}
-
-.section3,
 .section5,
 .section7 {
     background: #F5F4F0;
@@ -284,10 +276,7 @@ h2 {
 #distortion-of-novelty,
 #hyperbolic-depreciation,
 #errors-in-planning {
-    position: relative;
-    margin: auto;
-    max-width: 1110px;
-    padding: 100px 0;
+    width: 100vw;    
 }
 
 #ikea-effect,
@@ -296,11 +285,14 @@ h2 {
     background: #F5F4F0;
 }
 
-.section3::before,
-.section4::before,
-.section5::before,
-.section6::before,
-.section7::before {
+.section-container {
+    position: relative;
+    margin: auto;
+    max-width: 1110px;
+    padding: 100px 0;
+}
+
+.section-container::before {
     content: '';
     position: absolute;
     left: 0;
